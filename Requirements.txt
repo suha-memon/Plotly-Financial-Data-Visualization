@@ -1,0 +1,4 @@
+pandas == 2.0.3
+numpy == 1.25.0
+plotly
+alpha-vantage == 2.3.1
