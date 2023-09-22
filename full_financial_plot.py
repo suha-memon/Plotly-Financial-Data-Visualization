@@ -9,7 +9,7 @@ from alpha_vantage.timeseries import TimeSeries
 
 class Plot:
     def __init__(self):
-        self.api_key = '113TX0XL5MR8RKMM'
+        self.api_key = 'REPLACE_THIS_WITH_YOUR_16_CHARACTER_API_KEY'
 
         # Alpha Vantage initialize Time Series and Technical Indicators
         self.ts = TimeSeries(key=self.api_key, output_format='pandas')  # Time series
