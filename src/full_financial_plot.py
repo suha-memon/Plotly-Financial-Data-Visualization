@@ -29,7 +29,7 @@ class Plot:
         data_daily, meta_data_ts = self.ts.get_daily(ticker,
                                                      outputsize='full')  # pylint: disable=unbalanced-tuple-unpacking
         sar_daily, meta_sar = self.ti.get_sar(ticker, interval=interval)  # pylint: disable=unbalanced-tuple-unpacking
-        macd_daily, meta_macd = self.ti.get_macd(ticker, interval=interval,
+        macd_daily, meta_macd = self.ti.get_macdext(ticker, interval=interval,
                                                  series_type=series_type)  # pylint: disable=unbalanced-tuple-unpacking
         ema_daily8, meta_ema = self.ti.get_ema(ticker, interval=interval, time_period=first_ema_period,
                                                series_type=series_type)  # pylint: disable=unbalanced-tuple-unpacking
